@@ -1,0 +1,9 @@
+# InnerFocus root gitignore.
+# To avoid conflicts each project should have its own .gitignore file. So each subdirectory of "InnerFocus/" directory can have its own .gitignore, but not deeper than one nesting level. 
+
+# Mac OS
+.DS_Store
+
+Try ignoring all jpg files, then explicitly unignoring /public/assets/images:
+
+**/*.jpg
